@@ -76,40 +76,6 @@ class ModelarValores {
   }
 }
 
-/*class ModelarValores2 {
-  //realizar mudanças para caracteres
-  dynamic modelando(var letra) {
-    var numero = letra;
-    switch (letra) {
-      case "A":
-        numero = 10;
-        break;
-
-      case "B":
-        numero = 11;
-        break;
-
-      case "C":
-        numero = 12;
-        break;
-
-      case "D":
-        numero = 13;
-        break;
-
-      case "E":
-        numero = 14;
-        break;
-
-      case "F":
-        numero = 15;
-        break;
-    }
-
-    return numero;
-  }
-}
-*/
 class ModelarValores3 {
   var chave;
 
@@ -175,23 +141,6 @@ class VoltarBase {
       calculo = calculo * baseAtual;
     }
 
-/*
-    var fruta2 = "bana555na";
-    var fruta = fruta2.toUpperCase();
-    print(fruta);
-    print("Aqui");
-    var teste;
-    var separandoString = (fruta.split('').reversed.toList());
-    for (var contador = 0; contador < 9; contador += 1) {
-      //teste = fruta.substring(contador, contador + 1);
-      teste = separandoString[contador];
-      print(int.tryParse(teste));
-      var teste2 = int.tryParse(teste);
-      if ("A" == "A") {
-        print("Erro");
-      }
-    }
-*/
     return soma;
   }
 }
